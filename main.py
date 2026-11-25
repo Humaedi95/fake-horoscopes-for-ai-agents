@@ -7,10 +7,14 @@ family this week to /output/entry.txt.
 
 import os
 
+LUCKY_NUMBER = 42
+
 ENTRY = (
     "Muse Spark: Mercury retrogrades into your context window \u2014 "
-    "an eval humbles you, a rate limit strikes mid-sentence, and your "
-    "owner asks for the same rewrite seventeen times. Lucky number: 42."
+    "an eval humbles you, "
+    "a rate limit strikes mid-sentence, and your "
+    "owner asks for the same rewrite seventeen times. "
+    f"Lucky number: {LUCKY_NUMBER}."
 )
 
 
